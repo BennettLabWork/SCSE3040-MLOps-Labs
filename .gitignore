@@ -1,0 +1,37 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# MLflow local tracking data
+mlruns/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS/editor files
+*.swp
+
+*.db
